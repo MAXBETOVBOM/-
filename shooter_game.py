@@ -6,7 +6,7 @@ from random import randint
 font.init()
 font1 = font.SysFont('Arial', 40)
 winner = font1.render('YOU WIN!', True, (255, 255, 255))
-loser = font1.render('YOU LOSE!', True, (180, 0, 0))
+loser = font1.render('YOU LOSE!!', True, (180, 0, 0))
 
 font.init()
 font2 = font.SysFont('Arial', 40)
